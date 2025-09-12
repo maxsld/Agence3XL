@@ -19,44 +19,107 @@
   text-align: justify;
 }
 
-
-.presentation-jam {
-  padding: 5rem 2rem;
-  display: flex;
-  justify-content: center;
-}
-
-.presentation-jam .container {
+.page-services-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
   max-width: 1200px;
-  gap: 3rem;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+  text-align: justify;
 }
 
-.presentation-image img {
-  width: 100%;
-  max-width: 500px;
-  border-radius: 1rem;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+.page-services-container.reverse {
+  flex-direction: row-reverse;
 }
 
-.presentation-text h2 {
-  font-size: 2.2rem;
-  margin-bottom: 1.5rem;
+.page-services-image img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
-.presentation-text p {
+.page-services-text h2 {
+  font-size: 3.6rem;
   margin-bottom: 1rem;
+  font-weight: 700;
+  font-family: 'Anton';
+}
+
+.page-services-text p {
+  font-size: 1.1rem;
   line-height: 1.6;
+  margin-bottom: 1rem;
   color: #333;
 }
 
-.jam-points {
-  margin: 1.5rem 0;
-  padding-left: 1rem;
+.page-services-list {
+  margin: 1rem 0;
+  padding-left: 1.2rem;
+  list-style: none;
 }
 
-.jam-points li {
-  margin-bottom: 0.6rem;
+.page-services-list i {
+  color: #000;
+  background-color: #00e88f;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: .5rem;
+  margin-right: 0.6rem;
+}
+
+.highlight-text {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.page-services-steps {
+  display: flex;
+  gap: 2rem;
+  margin: 1.5rem 0;
+}
+
+.page-services-steps .step {
+  font-size: 1.1rem;
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+
+.page-services-steps .step span {
+  background: #19dc91;
+  color: #000;
+  font-weight: 700;
+  padding: 0.4rem 0.8rem;
+  border-radius: 50%;
+}
+
+
+.cta-final-jam{
+  color: var(--global-color-black);
+  padding: 4rem 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #dafff1;
+  border-radius: 1rem;
+  border: solid 1.5px rgba(0, 0, 0, 0.1);
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.cta-final-jam .client-photos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    margin-bottom: 2rem;
 }

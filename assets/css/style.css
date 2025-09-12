@@ -989,7 +989,7 @@ h1 {
 
 .cta-final {
   color: var(--global-color-black);
-  padding: 6rem 2rem;
+  padding: 4rem 2rem;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -1098,7 +1098,7 @@ h1 {
 }
 
 .footer-social a {
-  color: var(--global-color-yellow);
+  color: var(--global-color-white);
   font-size: 2rem;
   transition: opacity 0.2s ease;
 }

@@ -1,0 +1,167 @@
+@media (max-width: 768px) {
+    .navbar {
+        margin: 0 auto;
+        padding: 1rem 1.2rem;
+        border-radius: 0;
+    }
+
+    .nav-center {
+        display: none;
+    }
+
+    .section-grid {
+        padding: 6rem 2rem;
+    }
+
+    .title{
+        font-size: 2.6rem;
+    }
+
+    h1{
+        font-size: 2.6rem;
+    }
+
+    .hero, .hero-jam{
+        height: auto;
+        padding-top: 8rem;
+    }
+
+    .hero-content{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .floating-box{
+        display: none;
+    }
+
+    .cta-group{
+        gap: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-image{
+        width: 100%;
+    }
+
+    .hero-image img{
+        max-width: 400px;
+    }
+
+    .logo-track img{
+        height: 38px;
+    }
+
+
+    .feature-tag{
+        font-size: 1rem;
+    }
+
+    .section-service h2{
+        font-size: 2.6rem;
+    }
+
+    .title-card-service{
+        font-size: 1.8rem;
+    }
+
+    .description-card-service{
+        font-size: 1rem;
+    }
+
+    .scroll-section{
+        padding: 0rem 2rem;
+    }
+
+    .about-section{
+        flex-direction: column;
+    }
+
+
+
+    .key-numbers{
+        display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px 0px;
+    }
+
+
+    .track-left {
+        animation: scroll-left 10s linear infinite;
+    }
+
+    .track-right {
+        animation: scroll-right 10s linear infinite;
+    }
+
+    .faq-item{
+        text-align: left;
+    }
+
+    .faq-toogle{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .faq-question span{
+        font-size: 1rem;
+    }
+
+
+
+    .footer-container, .footer-links{
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-tagline{
+        text-align: center;
+    }
+
+
+
+
+
+
+
+    .page-services-container,
+  .page-services-container.reverse {
+    flex-direction: column;
+    text-align: left;
+    gap: 2rem;
+  }
+
+  .page-services-image img {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .page-services-text h2 {
+    font-size: 2.2rem;
+  }
+
+  .page-services-text p {
+    font-size: 1rem;
+  }
+
+  .page-services-steps {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: left;
+  }
+
+  .page-services-steps .step {
+    font-size: 1rem;
+  }
+
+  .page-services-list {
+    text-align: left; /* garde les puces alignées */
+    padding-left: 0;
+  }
+
+}
