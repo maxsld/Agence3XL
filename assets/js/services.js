@@ -49,25 +49,25 @@ document.addEventListener("DOMContentLoaded", () => {
 const avisLeft = [
   {
     text: "J’ai enregistré mon premier podcast avec Gérald et ça a été une expérience incroyable. Il sait écouter, guider et mettre en lumière les bons moments. Un souvenir que je garde précieusement.",
-    photo: "/assets/img/profiles/aida.jpeg",
+    photo: "assets/img/profiles/aida.jpeg",
     name: "Aida Berger",
     desc: "Brooklyn",
   },
   {
     text: "Participer à JAM a été une expérience unique. J’ai eu l’impression de faire un point sur ma vie tout en me projetant dans l’avenir. Gérald mène l’entretien avec une simplicité déconcertante.",
-    photo: "/assets/img/profiles/hugo-r.jpeg",
+    photo: "assets/img/profiles/hugo-r.jpeg",
     name: "Hugo Roche",
     desc: "Brooklyn",
   },
   {
     text: "Enregistrer un podcast avec Gérald a été une formidable expérience. Sa bienveillance et son écoute m’ont mise à l’aise dès les premières minutes. On se sent accompagné et valorisé dans son histoire.",
-    photo: "/assets/img/profiles/laura.jpeg",
+    photo: "assets/img/profiles/laura.jpeg",
     name: "Laura Boisseau",
     desc: "JAM",
   },
   {
     text: "En participant à JAM, j’ai découvert une autre manière de m’exprimer et de partager mon parcours. Une aventure humaine riche en émotions.",
-    photo: "/assets/img/profiles/maxens.jpeg",
+    photo: "assets/img/profiles/maxens.jpeg",
     name: "Maxens Soldan",
     desc: "JAM",
   },
@@ -76,31 +76,31 @@ const avisLeft = [
 const avisRight = [
   {
     text: "Brooklyn m’a permis de prendre du recul stratégique et de passer à l’action avec méthode. Gérald m’a challengé tout en gardant une approche humaine et bienveillante.",
-    photo: "/assets/img/profiles/daniel.jpeg",
+    photo: "assets/img/profiles/daniel.jpeg",
     name: "Daniel Oliveira",
     desc: "Brooklyn",
   },
   {
     text: "Serial Mentor m’a donné les clés pour développer mon leadership et avancer concrètement sur mes projets. Un vrai tremplin pour passer à l’action.",
-    photo: "/assets/img/profiles/evan.jpeg",
+    photo: "assets/img/profiles/evan.jpeg",
     name: "Evan Rolland",
     desc: "Serial Mentor",
   },
   {
     text: "Grâce à Serial Mentor, j’ai pu clarifier mes objectifs et trouver une direction qui me correspond. Gérald m’a guidé avec écoute et précision.",
-    photo: "/assets/img/profiles/lenny.jpeg",
+    photo: "assets/img/profiles/lenny.jpeg",
     name: "Lenny Vollet",
     desc: "Serial Mentor",
   },
   {
     text: "Serial Mentor m’a permis de gagner en confiance et d’oser me lancer dans mes projets. Un accompagnement motivant et inspirant.",
-    photo: "/assets/img/profiles/hugo.jpeg",
+    photo: "assets/img/profiles/hugo.jpeg",
     name: "Hugo Real",
     desc: "Serial Mentor",
   },
   {
     text: "Une expérience fantastique avec JAM ! Du partage, de la bienveillance et un vrai professionnalisme. Gérald sait créer une atmosphère conviviale tout en menant l’entretien avec sérieux.",
-    photo: "/assets/img/profiles/victor.jpeg",
+    photo: "assets/img/profiles/victor.jpeg",
     name: "Victor Lotz",
     desc: "JAM",
   },
