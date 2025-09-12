@@ -21,78 +21,78 @@
     </div>
 
     <nav class="nav-center">
-      <a href="#">Accueil</a>
-      <a href="#">Nos Services</a>
-      <a href="#">Success Stories</a>
-      <a href="#">FAQ</a>
-      <a href="#">Contact</a>
+      <a href="#home">Accueil</a>
+      <a href="#services">Nos Services</a>
+      <a href="#avis">Success Stories</a>
+      <a href="#faq">FAQ</a>
     </nav>
 
     <div class="nav-right">
-      <a href="https://cal.com/maxens-soldan-msd-media/30min" class="contact-button" target="_blank">Je passe à
+      <a href="#" class="contact-button" target="_blank">Je passe à
         l'action</a>
     </div>
   </header>
 
 
-  <section class="hero">
-    <div class="hero-text">
-      <div class="satisfaction animate-fade-opacity">
-        <div class="client-photos">
-          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client 1">
-          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client 2">
-          <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="Client 3">
-        </div>
-        <p class="small-text">100% de satisfaction client</p>
-      </div>
-
-      <h1 class="animate-fade-opacity">
-        L’agence qui vous fait<br>
-        <span class="highlight">passer à l'action</span>.
-      </h1>
-      <p class="description animate-fade-opacity">
-        Développez vos talents. Accélérez votre business.
-      </p>
-      <div class="cta-group animate-fade-opacity">
-        <a href="#" class="contact-button">Découvrir l'agence</a>
-        <a href="tel:+33738382412" class="contact">
-          <span class="whatsapp-icon"><i class="fa-brands fa-whatsapp"></i></span>
-          <div>
-            Me contacter directement<br>
-            <strong>+33 7 49 24 13 98</strong>
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="satisfaction animate-fade-opacity">
+          <div class="client-photos">
+            <img src="assets/img/profiles/hugo.jpeg" alt="Client 1">
+            <img src="assets/img/profiles/maxens.jpeg" alt="Client 2">
+            <img src="assets/img/profiles/aida.jpeg"Client 3">
           </div>
-        </a>
+          <p class="small-text">100% de satisfaction client</p>
+        </div>
+
+        <h1 class="animate-fade-opacity">
+          L’agence qui vous fait<br>
+          <span class="highlight">passer à l'action</span>.
+        </h1>
+        <p class="description animate-fade-opacity">
+          Développez vos talents. Accélérez votre business.
+        </p>
+        <div class="cta-group animate-fade-opacity">
+          <a href="#services" class="contact-button">Découvrir l'agence</a>
+          <a href="https://wa.me/33749241398?text=Hello, j'aimerais échanger avec vous sur l'agence 3XL." class="contact" target="_blank">
+            <span class="whatsapp-icon"><i class="fa-brands fa-whatsapp"></i></span>
+            <div>
+              Me contacter directement<br>
+              <strong>+33 7 49 24 13 98</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img class="animate-fade-opacity" src="assets/img/hero-photo.svg" alt="Gérald Debaud">
+
+        <!-- Avis client 1 -->
+        <div class="floating-box review-box animate-fade-opacity">
+          <div class="stars">
+            ★★★★★
+          </div>
+          <p class="review-text">"Service ultra-réactif et toujours dans la bienveillance."</p>
+          <p class="review-author">– Jean M.</p>
+        </div>
+
+        <!-- Avis client 2 -->
+        <div class="floating-box review-box-2 animate-fade-opacity">
+          <div class="stars">
+            ★★★★★
+          </div>
+          <p class="review-text">"J'adore, Gérald m'a enfin fait sauter le pas !"</p>
+          <p class="review-author">– Maxens S.</p>
+        </div>
       </div>
     </div>
-
-    <div class="hero-image">
-      <img class="animate-fade-opacity" src="assets/img/Design sans titre.png" alt="Gérald Debaud">
-
-      <!-- Avis client 1 -->
-      <div class="floating-box review-box animate-fade-opacity">
-        <div class="stars">
-          ★★★★★
-        </div>
-        <p class="review-text">"Service ultra-réactif et toujours dans la bienveillance."</p>
-        <p class="review-author">– Jean M.</p>
-      </div>
-
-      <!-- Avis client 2 -->
-      <div class="floating-box review-box-2 animate-fade-opacity">
-        <div class="stars">
-          ★★★★★
-        </div>
-        <p class="review-text">"J'adore, Gérald m'a enfin fait sauter le pas !"</p>
-        <p class="review-author">– Maxens S.</p>
-      </div>
-    </div>
-
   </section>
 
 
 
   <section class="section-trusted section-grid">
-    <div class="trusted-text animate-fade-in">Ils m'ont fait déjà confiance, pourquoi pas vous ?</div>
+    <div class="trusted-text animate-fade-in">Ils nous ont fait déjà confiance, pourquoi pas vous ?</div>
 
     <div class="logo-carousel-wrapper animate-fade-in">
       <div class="logo-carousel">
@@ -106,112 +106,146 @@
 
 
   <!-- Section Services -->
-  <section class="section-service section-grid">
+  <section class="section-service section-grid" id="services">
     <div class="container">
-      <h3 class="feature-tag animate-fade-in">Nos services</h3>
+      <h3 class="feature-tag animate-fade-in">Nos raisons d'être</h3>
       <div class="header">
-        <h2 class="title animate-fade-in">Tout ce que vous avez <br> besoin en <span class="highlight">une agence</span>
+        <h2 class="title animate-fade-in">Tout ce que vous avez <br> besoin en <span class="highlight">format 3XL</span>
         </h2>
         <p class="description animate-fade-in">
-          Découvrez nos programmes pensés pour accompagner les entreprises, les jeunes talents et les porteurs de
-          projets à chaque étape de leur développement
+          Nous partageons des valeurs fortes d’engagement et de respect pour donner du sens à notre collaboration et
+          amplifier votre trajectoire dans une dynamique positive.
         </p>
       </div>
 
       <div class="service-grid">
-        <!-- Programmes d’accompagnement -->
-<div class="service-card brooklyn animate-fade-in">
-  <h3>Programmes d’accompagnement</h3>
-  <p>
-    Des parcours sur mesure pour dirigeants, talents et équipes,
-    afin de transformer vos ambitions en résultats concrets.
-  </p>
-</div>
+        <!-- Accompagnement bienveillant -->
+        <div class="service-card brooklyn animate-fade-in">
+          <h3>Accompagnement bienveillant</h3>
+          <p>
+            L’humain est au cœur de notre approche.<br>
+            Écoute attentive, échanges sincères et discussions franches pour instaurer une relation de confiance avant
+            de travailler ensemble.
+          </p>
+        </div>
 
-<!-- Méthode pragmatique -->
-<div class="service-card mentor animate-fade-in">
-  <h3>Méthode pragmatique</h3>
-  <p>
-    Une approche claire en 3 étapes : Évaluation – Plan d’action – Exécution.
-    Pour aller droit au but et obtenir des résultats mesurables.
-  </p>
-</div>
+        <!-- État des lieux sincères -->
+        <div class="service-card mentor animate-fade-in">
+          <h3>État des lieux sincères</h3>
+          <p>
+            Tout commence par les bonnes questions.<br>
+            Analyse précise de votre situation, définition claire des objectifs et de vos ambitions pour tracer une
+            direction efficace.
+          </p>
+        </div>
 
-<!-- Workshops immersifs -->
-<div class="service-card jam animate-fade-in">
-  <h3>Workshops immersifs</h3>
-  <p>
-    Des ateliers collaboratifs pour stimuler l’innovation,
-    renforcer la cohésion et prioriser l’action collective.
-  </p>
-</div>
+        <!-- Méthode et outils performants -->
+        <div class="service-card jam animate-fade-in">
+          <h3>Méthode et outils performants</h3>
+          <p>
+            L’exigence guide notre démarche.<br>
+            Des outils modernes et reconnus pour piloter votre projet de manière efficace et structurée.
+          </p>
+        </div>
 
-<!-- Coaching & Mentoring -->
-<div class="service-card brooklyn animate-fade-in">
-  <h3>Coaching & Mentoring</h3>
-  <p>
-    Un accompagnement humain et bienveillant pour révéler
-    le leadership, renforcer la confiance et accélérer les trajectoires.
-  </p>
-</div>
+        <!-- Dynamique stratégique et opérationnelle -->
+        <div class="service-card brooklyn animate-fade-in">
+          <h3>Dynamique stratégique et opérationnelle</h3>
+          <p>
+            Transparence et action.<br>
+            Une approche systémique pour prendre des décisions adaptées et gérer vos priorités avec clarté.
+          </p>
+        </div>
 
-<!-- Storytelling & Communication -->
-<div class="service-card mentor animate-fade-in">
-  <h3>Storytelling & Communication</h3>
-  <p>
-    Mise en récit de vos projets et création de contenus percutants
-    pour amplifier votre visibilité et votre impact.
-  </p>
-</div>
+        <!-- Storytelling et networking -->
+        <div class="service-card mentor animate-fade-in">
+          <h3>Storytelling et networking</h3>
+          <p>
+            Savoir-faire et faire savoir.<br>
+            Création de contenus impactants et mise en relation avec un réseau bienveillant pour amplifier votre
+            visibilité et votre influence.
+          </p>
+        </div>
 
-<!-- Réseau & Partenariats -->
-<div class="service-card jam animate-fade-in">
-  <h3>Réseau & Partenariats</h3>
-  <p>
-    Accès à un écosystème bienveillant et engagé,
-    pour créer des opportunités et multiplier vos chances de réussite.
-  </p>
-</div>
-
-
+        <!-- Résultats mesurables -->
+        <div class="service-card jam animate-fade-in">
+          <h3>Résultats mesurables</h3>
+          <p>
+            Pilotage clair et concret.<br>
+            Suivi précis de la performance pour ajuster vos actions et célébrer chaque succès.
+          </p>
+        </div>
       </div>
+
 
     </div>
   </section>
 
 
+  <section class="scroll-section">
+    <!-- Brooklyn -->
+    <a href="services/brooklyn/index.html" class="scroll-card-link">
+      <div class="scroll-card" style="background-image: url('assets/img/brooklyn-background.jpg');">
+<div class="card-arrow">
+  <i class="fa-solid fa-arrow-right"></i>
+  <span class="arrow-text">En savoir plus</span>
+</div>
+        <div class="overlay"></div>
+        <div class="card-content">
+          <img src="assets/img/logo-brooklyn-white.png" alt="Logo Brooklyn" class="card-logo">
+          <p class="title-card-service">Partenaire de croissance</p>
+          <p class="description-card-service">
+            Nous aidons les entreprises à franchir un cap et à saisir toutes les opportunités.
+            Évaluation, plan d’action et exécution : nous développons vos capacités de pilotage stratégique et
+            opérationnel grâce à une méthode éprouvée, pour des résultats concrets et mesurables.
+          </p>
+        </div>
+      </div>
+    </a>
 
-<section class="scroll-section">
-  <div class="scroll-card" style="background-image: url('assets/img/brooklyn-background.jpeg');">
-    <div class="overlay"></div>
-    <div class="card-content">
-      <img src="assets/img/logo-brooklyn-white.png" alt="Logo" class="card-logo">
-      <p class="card-desc">
-        Brooklyn – Partenaire de croissance : nous aidons les entreprises à se réinventer grâce à une méthode claire en 3 étapes : Évaluation – Plan d’action – Exécution.
-      </p>
-    </div>
-  </div>
+    <!-- Serial Mentor -->
+    <a href="serial-mentor.html" class="scroll-card-link">
+      <div class="scroll-card" style="background-image: url('assets/img/serial-mentor-background.jpg');">
+<div class="card-arrow">
+  <i class="fa-solid fa-arrow-right"></i>
+  <span class="arrow-text">En savoir plus</span>
+</div>
+        <div class="overlay"></div>
+        <div class="card-content">
+          <img src="assets/img/logo-serial-mentor-white.png" alt="Logo Serial Mentor" class="card-logo">
+          <p class="title-card-service">Incubateur de vos ambitions</p>
+          <p class="description-card-service">
+            Tel une boussole, nous guidons la jeune génération à trouver sa voie, développer son leadership et passer à
+            l’action.
+            Nous partageons des outils performants et un réseau bienveillant pour accélérer le développement des talents
+            et futurs leaders.
+          </p>
+        </div>
+      </div>
+    </a>
 
-  <div class="scroll-card" style="background-image: url('assets/img/serial-mentor-background.jpg');">
-    <div class="overlay"></div>
-    <div class="card-content">
-      <img src="assets/img/logo-serial-mentor-white.png" alt="Logo" class="card-logo">
-      <p class="card-desc">
-        Serial Mentor – Incubateur de vos ambitions : un accompagnement en 4 étapes pour aider la jeune génération à trouver sa voie, développer son leadership et passer à l’action.
-      </p>
-    </div>
-  </div>
+    <!-- JAM -->
+    <a href="jam.html" class="scroll-card-link">
+      <div class="scroll-card" style="background-image: url('assets/img/jam-background.webp');">
+<div class="card-arrow">
+  <i class="fa-solid fa-arrow-right"></i>
+  <span class="arrow-text">En savoir plus</span>
+</div>
+        <div class="overlay"></div>
+        <div class="card-content">
+          <img src="assets/img/logo-jam-white.png" alt="Logo JAM" class="card-logo">
+          <p class="title-card-service">Amplificateur de voix</p>
+          <p class="description-card-service">
+            Nous vous donnons les clés pour raconter votre histoire, inspirer et développer votre singularité.
+            Grâce à l’expérience JAM, vous maîtrisez les codes du storytelling et stimulez l’adhésion et l’engagement de
+            vos contacts, clients et équipes.
+          </p>
+        </div>
+      </div>
+    </a>
+  </section>
 
-  <div class="scroll-card" style="background-image: url('assets/img/jam-background.jpg');">
-    <div class="overlay"></div>
-    <div class="card-content">
-      <img src="assets/img/logo-jam-white.png" alt="Logo" class="card-logo">
-      <p class="card-desc">
-        JAM – Amplificateur de voix : une plateforme d’expression pour raconter votre histoire et inspirer, avec une approche moderne en 3 étapes : Conception – Production – Diffusion.
-      </p>
-    </div>
-  </div>
-</section>
+
 
 
 
@@ -275,8 +309,8 @@
 
   <section class="avis-section" id="avis">
     <h3 class="feature-tag animate-fade-in">Feedback Client</h3>
-    <h2 class="title animate-fade-in">Approuvé par nos clients, <br> soutenu par des <span class="highlight">résultats
-        prouvés</span></h2>
+    <h2 class="title animate-fade-in">Un passage à l'action <br> <span class="highlight">approuvé</span> par nos
+      clients</span></h2>
 
     <!-- Vidéos -->
 
@@ -303,8 +337,8 @@
         <button class="faq-toggle">+</button>
       </div>
       <div class="faq-answer">
-        Aux dirigeants, entrepreneurs, jeunes talents et équipes qui veulent grandir, s’adapter et passer à l’action
-        face aux nouveaux défis.
+        Aux dirigeants, entrepreneurs, jeunes talents et équipes… toute personne ambitieuse qui veut grandir, se
+        développer et passer à l’action dans un monde complexe et toujours en mouvement.
       </div>
     </div>
 
@@ -314,8 +348,9 @@
         <button class="faq-toggle">+</button>
       </div>
       <div class="faq-answer">
-        Brooklyn accompagne les entreprises dans leur croissance, Serial Mentor guide la nouvelle génération dans son
-        orientation et son leadership, et JAM amplifie les voix et les parcours grâce aux médias modernes.
+        Brooklyn accompagne les entreprises dans leur croissance (consulting), Serial Mentor guide la nouvelle
+        génération dans son orientation et son leadership (mentoring), et JAM amplifie les voix et les parcours grâce
+        aux médias modernes (broadcasting).
       </div>
     </div>
 
@@ -325,8 +360,8 @@
         <button class="faq-toggle">+</button>
       </div>
       <div class="faq-answer">
-        Chaque programme suit une méthode claire et structurée (3 à 4 étapes) adaptée à vos besoins : diagnostic, plan
-        d’action, mise en mouvement et suivi.
+        Nous définissons ensemble vos besoins et vos objectifs. Nous vous proposons alors une méthode adaptée, claire et
+        structurée, avec des étapes identifiées et mesurables, que ce soit en présentiel ou en distanciel.
       </div>
     </div>
 
@@ -336,19 +371,21 @@
         <button class="faq-toggle">+</button>
       </div>
       <div class="faq-answer">
-        Cela dépend de vos objectifs. Certains projets se concrétisent en quelques semaines, d’autres s’inscrivent dans
-        un suivi de plusieurs mois. Nous ajustons le rythme ensemble.
+        Cela dépend de vos objectifs et de vos besoins. Certains projets se concrétisent en quelques semaines (3 séances
+        peuvent parfois suffire), d’autres s’inscrivent dans un accompagnement de plusieurs mois. Nous décidons et
+        ajustons le rythme ensemble.
       </div>
     </div>
 
     <div class="faq-item animate-fade-in">
       <div class="faq-question">
-        <span>En quoi l’expérience de Gérald fait la différence ?</span>
+        <span>En quoi l’Agence 3XL peut faire la différence ?</span>
         <button class="faq-toggle">+</button>
       </div>
       <div class="faq-answer">
-        Avec 35 ans d’expérience en business international, innovation et management multiculturel, Gérald apporte un
-        regard pragmatique, une énergie positive et un savoir-faire immédiatement actionnable.
+        Avec 35 ans d’expérience en business international, innovation et management multiculturel, nous apportons un
+        regard pragmatique, une énergie positive et un savoir-faire immédiatement actionnable. Nous utilisons notre
+        réseau et nos contacts au profit de votre projet.
       </div>
     </div>
 
@@ -358,11 +395,13 @@
         <button class="faq-toggle">+</button>
       </div>
       <div class="faq-answer">
-        C’est simple : Brooklyn si vous êtes une entreprise en croissance, Serial Mentor si vous êtes un jeune en quête
-        de repères, JAM si vous voulez partager et amplifier votre voix. Nous vous aidons à choisir.
+        C’est simple et rapide : il suffit de prendre rendez-vous ! Nous ferons connaissance, échangerons sur vos
+        projets et vos besoins, puis nous vous enverrons une proposition d’accompagnement pour que vous puissiez passer
+        à l’action.
       </div>
     </div>
   </section>
+
 
 
 
@@ -379,7 +418,7 @@
 
       </div>
       <h2 class="title animate-fade-in">
-        Ensemble on va plus loin ET <span class="highlight">plus vite</span> !
+        Ensemble on va plus vite ET <span class="highlight">plus loin</span> !
       </h2>
       <p class="cta-subtitle animate-fade-in">
         30 minutes d’échange pour clarifier vos enjeux et identifier des solutions concrètes. <br>
@@ -460,6 +499,11 @@
 
 
   <script src="assets/js/script.js"></script>
+  <script data-id-scroll="" data-autoinit="true" data-duration="1" data-orientation="vertical" data-smoothwheel="true"
+    data-smoothtouch="false" data-touchmultiplier="1.5" data-easing="(t) => (t === 1 ? 1 : 1 - Math.pow(2, -10 * t))"
+    data-useoverscroll="true" data-usecontrols="true" data-useanchor="true" data-useraf="true" data-infinite="false"
+    defer=""
+    src="https://assets-global.website-files.com/645e0e1ff7fdb6dc8c85f3a2/64a5544a813c7253b90f2f50_lenis-offbrand.txt"></script>
 
 </body>
 
