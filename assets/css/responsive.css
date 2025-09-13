@@ -21,7 +21,7 @@
         font-size: 2.6rem;
     }
 
-    .hero, .hero-jam{
+    .hero, .hero-jam, .hero-serial, .hero-brooklyn{
         height: auto;
         padding-top: 8rem;
     }
@@ -137,7 +137,6 @@
   .page-services-image img {
     width: 100%;
     height: auto;
-    max-width: 350px;
     margin: 0 auto;
   }
 
@@ -162,6 +161,11 @@
   .page-services-list {
     text-align: left; /* garde les puces alignées */
     padding-left: 0;
+  }
+
+
+  .cta-final-jam{
+    border-radius: 0;
   }
 
 }

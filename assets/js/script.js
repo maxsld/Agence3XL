@@ -72,19 +72,19 @@ for (let i = 0; i < 100; i++) {
 
 const avisLeft = [
   {
-    text: "J’ai enregistré mon premier podcast avec Gérald et ça a été une expérience incroyable. Il sait écouter, guider et mettre en lumière les bons moments. Un souvenir que je garde précieusement.",
+    text: "Nous travaillons ensemble depuis quelques années sur des projets ambitieux, orientés éducation et people management. Gérald sait s’adapter quel que soit le type de client, sa nationalité, et sa culture. Je recommande à 100%.",
     photo: "assets/img/profiles/aida.jpeg",
-    name: "Aida Berger",
+    name: "Aida Berger 🇺🇸",
     desc: "Brooklyn",
   },
   {
-    text: "Participer à JAM a été une expérience unique. J’ai eu l’impression de faire un point sur ma vie tout en me projetant dans l’avenir. Gérald mène l’entretien avec une simplicité déconcertante.",
+    text: "Nous avons fait appel à Gérald avec pour mission de rebooster une équipe internationale. Il a fait l’unanimité et a permis d’obtenir des résultats concrets et durables. Son côté humain a fait la différence",
     photo: "assets/img/profiles/hugo-r.jpeg",
-    name: "Hugo Roche",
+    name: "Hugo Roche 🇨🇭",
     desc: "Brooklyn",
   },
   {
-    text: "Enregistrer un podcast avec Gérald a été une formidable expérience. Sa bienveillance et son écoute m’ont mise à l’aise dès les premières minutes. On se sent accompagné et valorisé dans son histoire.",
+    text: "Grace à Gérald, j’ai pu prendre la parole, enregistrer un podcast JAM, et partager mon parcours et ma passion. Toujours un mot gentil et des encouragements, il dégage une énergie positive qui fait du bien et qui est contagieuse.",
     photo: "assets/img/profiles/laura.jpeg",
     name: "Laura Boisseau",
     desc: "JAM",
@@ -99,13 +99,13 @@ const avisLeft = [
 
 const avisRight = [
   {
-    text: "Brooklyn m’a permis de prendre du recul stratégique et de passer à l’action avec méthode. Gérald m’a challengé tout en gardant une approche humaine et bienveillante.",
+    text: "Gérald à rejoint notre équipe pendant quelques mois pour nous accompagner dans notre développement. Très structuré, toujours positif et plein d’énergie, il a su trouver des solutions. Bravo à lui !",
     photo: "assets/img/profiles/daniel.jpeg",
     name: "Daniel Oliveira",
     desc: "Brooklyn",
   },
   {
-    text: "Serial Mentor m’a donné les clés pour développer mon leadership et avancer concrètement sur mes projets. Un vrai tremplin pour passer à l’action.",
+    text: "J’ai fait la connaissance de Gérald lors d’un cours de marketing. Il a su être à mon écoute et ma accompagné à titre personnel pour m’aider dans mes choix. Aujourd’hui, je m’éclate dans une grande marque de sport. Merci à lui",
     photo: "assets/img/profiles/evan.jpeg",
     name: "Evan Rolland",
     desc: "Serial Mentor",
@@ -117,13 +117,13 @@ const avisRight = [
     desc: "Serial Mentor",
   },
   {
-    text: "Serial Mentor m’a permis de gagner en confiance et d’oser me lancer dans mes projets. Un accompagnement motivant et inspirant.",
+    text: "Je connais Gérald depuis des années. Nous partageons ensemble le gout de transmettre à la jeune génération et de créer des évènements innovants, particulièrement dans le monde du sport. Il est exigeant et très respecté.",
     photo: "assets/img/profiles/hugo.jpeg",
     name: "Hugo Real",
     desc: "Serial Mentor",
   },
   {
-    text: "Une expérience fantastique avec JAM ! Du partage, de la bienveillance et un vrai professionnalisme. Gérald sait créer une atmosphère conviviale tout en menant l’entretien avec sérieux.",
+    text: "Energie et charisme sont les deux premières qualités de Gérald. J’ai rejoint rapidement la JAMacadémy pour vivre une expérience unique et innovante. Son parcours est très inspirant, j’en ressort grandi.",
     photo: "assets/img/profiles/victor.jpeg",
     name: "Victor Lotz",
     desc: "JAM",

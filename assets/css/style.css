@@ -294,8 +294,8 @@ h1 {
 
 /* Avis client 1 */
 .review-box {
-  top: 20px;
-  left: -60px;
+  top: 0px;
+  left: -100px;
   width: 220px;
   transform: translateY(-5px) rotate(-3deg);
 }
@@ -319,6 +319,7 @@ h1 {
   font-weight: 500;
   color: #111;
   margin-bottom: 6px;
+  text-align: left;
 }
 
 .review-author {
@@ -538,6 +539,10 @@ h1 {
   background-color: #9c97ff; /* violet moderne */
 }
 
+
+.scroll-section{
+  padding: 8rem 2rem;
+}
 
 .scroll-card {
   width: 100%;
