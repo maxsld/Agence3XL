@@ -48,12 +48,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const avisLeft = [
   {
-    text: "Nous travaillons ensemble depuis quelques années sur des projets ambitieux, orientés éducation et people management. Gérald sait s’adapter quel que soit le type de client, sa nationalité, et sa culture. Je recommande à 100%.",
-    photo: "/assets/img/profiles/aida.jpeg",
-    name: "Aida Berger 🇺🇸",
-    desc: "Brooklyn",
-  },
-  {
     text: "Grace à Gérald, j’ai pu prendre la parole, enregistrer un podcast JAM, et partager mon parcours et ma passion. Toujours un mot gentil et des encouragements, il dégage une énergie positive qui fait du bien et qui est contagieuse.",
     photo: "/assets/img/profiles/laura.jpeg",
     name: "Laura Boisseau",
@@ -69,6 +63,12 @@ const avisLeft = [
     text: "Nous avons fait appel à Gérald avec pour mission de rebooster une équipe internationale. Il a fait l’unanimité et a permis d’obtenir des résultats concrets et durables. Son côté humain a fait la différence",
     photo: "/assets/img/profiles/hugo.jpeg",
     name: "Hugo Roche 🇨🇭",
+    desc: "Brooklyn",
+  },
+    {
+    text: "Nous travaillons ensemble depuis quelques années sur des projets ambitieux, orientés éducation et people management. Gérald sait s’adapter quel que soit le type de client, sa nationalité, et sa culture. Je recommande à 100%.",
+    photo: "/assets/img/profiles/aida.jpeg",
+    name: "Aida Berger 🇺🇸",
     desc: "Brooklyn",
   },
 ];

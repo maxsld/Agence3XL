@@ -813,19 +813,33 @@ h1 {
 }
 
 .avis-card {
-  display: inline-block;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
   padding: 1rem 1.5rem;
   background: #f8f8f8;
-  color: var(--global-color-black);
   border-radius: 1rem;
-  font-weight: 500;
-  min-width: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: left;
-  justify-content: space-between;
+  min-width: 400px;
+  overflow: hidden;
 }
+
+.flag-banner {
+  position: absolute;
+  bottom: 0rem;
+  right: -4rem;
+  width: 180px;      /* largeur de la banderole */
+  height: 60px;     /* hauteur de la banderole */
+  background-size: cover;
+  background-position: center;
+  transform: rotate(-45deg);
+  z-index: 2;
+  border-radius: 0 0 1rem 0;
+  opacity: .6;
+}
+
 
 .avis-card p {
   margin: 0;
