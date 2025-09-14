@@ -55,7 +55,6 @@ const logos = [
   "./assets/img/logo-track6.png",
   "./assets/img/logo-track7.png",
   "./assets/img/logo-track8.png",
-
 ];
 
 const track = document.getElementById("logo-track");
@@ -69,18 +68,11 @@ for (let i = 0; i < 100; i++) {
   });
 }
 
-
 const avisLeft = [
   {
     text: "Nous travaillons ensemble depuis quelques années sur des projets ambitieux, orientés éducation et people management. Gérald sait s’adapter quel que soit le type de client, sa nationalité, et sa culture. Je recommande à 100%.",
     photo: "assets/img/profiles/aida.jpeg",
     name: "Aida Berger 🇺🇸",
-    desc: "Brooklyn",
-  },
-  {
-    text: "Nous avons fait appel à Gérald avec pour mission de rebooster une équipe internationale. Il a fait l’unanimité et a permis d’obtenir des résultats concrets et durables. Son côté humain a fait la différence",
-    photo: "assets/img/profiles/hugo-r.jpeg",
-    name: "Hugo Roche 🇨🇭",
     desc: "Brooklyn",
   },
   {
@@ -95,6 +87,12 @@ const avisLeft = [
     name: "Maxens Soldan",
     desc: "JAM",
   },
+    {
+    text: "Nous avons fait appel à Gérald avec pour mission de rebooster une équipe internationale. Il a fait l’unanimité et a permis d’obtenir des résultats concrets et durables. Son côté humain a fait la différence",
+    photo: "assets/img/profiles/hugo.jpeg",
+    name: "Hugo Roche 🇨🇭",
+    desc: "Brooklyn",
+  },
 ];
 
 const avisRight = [
@@ -105,20 +103,20 @@ const avisRight = [
     desc: "Brooklyn",
   },
   {
-    text: "J’ai fait la connaissance de Gérald lors d’un cours de marketing. Il a su être à mon écoute et ma accompagné à titre personnel pour m’aider dans mes choix. Aujourd’hui, je m’éclate dans une grande marque de sport. Merci à lui",
+    text: "Grâce à Serial Mentor, j’ai pu clarifier mes objectifs et bâtir une stratégie de communication efficace. Gérald m’a guidé avec écoute et précision.",
     photo: "assets/img/profiles/evan.jpeg",
     name: "Evan Rolland",
     desc: "Serial Mentor",
   },
   {
-    text: "Grâce à Serial Mentor, j’ai pu clarifier mes objectifs et trouver une direction qui me correspond. Gérald m’a guidé avec écoute et précision.",
+    text: "J’ai fait la connaissance de Gérald lors d’un cours de marketing. Il a su être à mon écoute et ma accompagné à titre personnel pour m’aider dans mes choix. Aujourd’hui, je travaille dans une grande marque de sport. Merci à lui",
     photo: "assets/img/profiles/lenny.jpeg",
     name: "Lenny Vollet",
     desc: "Serial Mentor",
   },
   {
     text: "Je connais Gérald depuis des années. Nous partageons ensemble le gout de transmettre à la jeune génération et de créer des évènements innovants, particulièrement dans le monde du sport. Il est exigeant et très respecté.",
-    photo: "assets/img/profiles/hugo.jpeg",
+    photo: "assets/img/profiles/hugo-r.jpeg",
     name: "Hugo Real",
     desc: "Serial Mentor",
   },
@@ -129,7 +127,6 @@ const avisRight = [
     desc: "JAM",
   },
 ];
-
 
 const trackLeft = document.getElementById("track-left");
 const trackRight = document.getElementById("track-right");
@@ -170,7 +167,6 @@ for (let i = 0; i < 10; i++) {
   });
 }
 
-
 document.querySelectorAll(".faq-question").forEach((q) => {
   q.addEventListener("click", () => {
     const item = q.parentElement;
@@ -178,31 +174,31 @@ document.querySelectorAll(".faq-question").forEach((q) => {
   });
 });
 
-  const cards = document.querySelectorAll(".scroll-card");
+const cards = document.querySelectorAll(".scroll-card");
 
-  window.addEventListener("scroll", () => {
-    const windowHeight = window.innerHeight;
+window.addEventListener("scroll", () => {
+  const windowHeight = window.innerHeight;
 
-    cards.forEach(card => {
-      const rect = card.getBoundingClientRect();
-      const cardCenter = rect.top -10;
+  cards.forEach((card) => {
+    const rect = card.getBoundingClientRect();
+    const cardCenter = rect.top - 10;
 
-      // Différence entre le centre de l'écran et le centre de la carte
-      const diff = cardCenter - windowHeight / 2;
+    // Différence entre le centre de l'écran et le centre de la carte
+    const diff = cardCenter - windowHeight / 2;
 
-      // Inclinaison max
-      const maxTilt = 35; 
+    // Inclinaison max
+    const maxTilt = 35;
 
-      // Calcul : plus diff est proche de 0, plus on est plat
-      let tilt = diff / 5;
+    // Calcul : plus diff est proche de 0, plus on est plat
+    let tilt = diff / 5;
 
-      // Clamp côté positif (si en dessous → reste plat)
-      if (tilt < 0) tilt = 0;
+    // Clamp côté positif (si en dessous → reste plat)
+    if (tilt < 0) tilt = 0;
 
-      // Clamp côté négatif (si trop incliné en haut)
-      if (tilt > maxTilt) tilt = maxTilt;
+    // Clamp côté négatif (si trop incliné en haut)
+    if (tilt > maxTilt) tilt = maxTilt;
 
-      // Appliquer la rotation
-      card.style.transform = `perspective(1000px) rotateX(${tilt}deg)`;
-    });
+    // Appliquer la rotation
+    card.style.transform = `perspective(1000px) rotateX(${tilt}deg)`;
   });
+});

@@ -1,12 +1,10 @@
-
-
 .highlight-jam {
   background: linear-gradient(135deg, #19dc91 0%, #00ff9d 100%);
   padding: 0 6px;
   font-weight: bold;
 }
 
-.hero-jam{
+.hero-jam {
   height: 100vh;
   display: flex;
   justify-content: space-between;
@@ -43,7 +41,7 @@
   height: 450px;
   object-fit: cover;
   border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .page-services-text h2 {
@@ -150,7 +148,7 @@
 
 
 
-.cta-final-jam{
+.cta-final-jam {
   color: var(--global-color-black);
   padding: 4rem 2rem;
   text-align: center;
@@ -163,9 +161,9 @@
   margin-bottom: 6rem;
 }
 
-.cta-final-jam .client-photos{
+.cta-final-jam .client-photos {
   display: flex;
   align-items: center;
   justify-content: center;
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }

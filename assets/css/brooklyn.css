@@ -1,12 +1,10 @@
-
-
 .highlight-brooklyn {
   background: #ff9b9b;
   padding: 0 6px;
   font-weight: bold;
 }
 
-.hero-brooklyn{
+.hero-brooklyn {
   height: 100vh;
   display: flex;
   justify-content: space-between;
@@ -43,7 +41,7 @@
   height: 500px;
   object-fit: cover;
   border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .page-services-text h2 {
@@ -109,7 +107,7 @@
 }
 
 
-.cta-final-brooklyn{
+.cta-final-brooklyn {
   color: var(--global-color-black);
   padding: 4rem 2rem;
   text-align: center;
@@ -122,9 +120,9 @@
   margin-bottom: 6rem;
 }
 
-.cta-final-brooklyn .client-photos{
+.cta-final-brooklyn .client-photos {
   display: flex;
   align-items: center;
   justify-content: center;
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
