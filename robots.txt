@@ -1,0 +1,12 @@
+# Autorise tous les robots Ã  accÃ©der Ã  toutes les pages
+User-agent: *
+Allow: /
+
+# Sitemap pour aider Google Ã  indexer ton site
+Sitemap: https://agence3xl.fr/sitemap.xml
+
+Disallow: /assets/css/
+Disallow: /assets/js/
+Disallow: /assets/img/
+
+# Disallow: /mentions-legales.html
