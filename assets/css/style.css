@@ -784,8 +784,8 @@ h1 {
 }
 
 .video-wrapper {
-  width: 280px;
-  height: 500px;
+  width: 250px;
+  height: 400px;
   /* 16:9 ratio */
   overflow: hidden;
   border-radius: 1rem;
